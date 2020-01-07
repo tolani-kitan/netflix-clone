@@ -1,0 +1,62 @@
+.bg-image{
+    background: url('background.jpg') no-repeat center center/cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+    position: absolute;
+	z-index: 1;
+	box-shadow: inset 120px 150px 250px #000000, inset -120px -150px 250px #000000;
+}
+
+.img-class{
+    width: 170px;
+    height: 45px;
+    margin: 30px 0 0 50px;
+}
+
+.btn-class{
+    border-radius: 3px;
+    float: right;
+    font-size: 20px;
+    margin: 30px 50px 0 0;
+}
+
+.btn{
+	background-color: #ff0000;
+    color: #fff;
+    border: none;
+	padding: 0.4rem 1.3rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dbtn-class{
+    padding-right: 3.25rem;
+    padding-left: 1.6125rem;
+    font-size: 1.625rem;
+    min-height: 60px;
+    border-radius: 3px;
+    margin: 30px;
+}
+
+.content{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 9rem;
+    color: white;
+}
+
+.content h1 {
+    font-size: 3.7rem;
+    line-height: 1.1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
